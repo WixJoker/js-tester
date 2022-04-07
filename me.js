@@ -1,20 +1,11 @@
-function getSubscriptionPrice(type) {
-  let price;
-  // Change code below this line
+const courseTopic = "JavaScript essentials";
+// Change code below this line
 
- switch (price) { // Change this line
-    case type === "starter": // Change this line
-      price = 0; // Change this line
-      break;
+const courseTopicLength = courseTopic;
+const firstElement = courseTopic;
+const lastElement = courseTopic;
 
-    case type === "professional": // Change this line
-      price = 20
-
-    case type === "organization": // Change this line
-      price = 50; // Change this line
-      break;
-  }
-
-  // Change code above this line
-  return price;
-}
+console.log(courseTopicLength.length);
+console.log(firstElement[0]);
+console.log(lastElement[20]);
+// Change code above this line
