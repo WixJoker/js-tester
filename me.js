@@ -1,11 +1,7 @@
-const courseTopic = "JavaScript essentials";
-// Change code below this line
+function getSubstring(string, length) {
 
-const courseTopicLength = courseTopic;
-const firstElement = courseTopic;
-const lastElement = courseTopic;
+    const substring = "Hello world";
+    getSubstring(substring.slice(0, 3));
 
-console.log(courseTopicLength.length);
-console.log(firstElement[0]);
-console.log(lastElement[20]);
-// Change code above this line
+    return substring;
+}
